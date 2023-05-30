@@ -9,4 +9,3 @@ class car_manager(Turtle):
         self.shape('square')
         self.shapesize(1, 2, 0)
         self.goto(300,randint(-260,260))
-        time.sleep(0.9)
