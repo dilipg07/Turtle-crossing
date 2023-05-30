@@ -7,5 +7,6 @@ class car_manager(Turtle):
         super().__init__()
         self.penup()
         self.shape('square')
-        self.shapesize(1, 2, 0)
-        self.goto(300,randint(-260,260))
+        self.shapesize(1, 1.5, 0)
+        self.goto(randint(200,250),randint(-260,250))
+        self.sped = 0.9
