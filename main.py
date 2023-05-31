@@ -7,7 +7,7 @@ screen.setup(600,600)
 screen.tracer(0)
 new_player = Player()
 screen.listen()
-screen.onkey(move,"Up")
+screen.onkey(new_player.move,"Up")
 
 
 game_on =True
