@@ -7,8 +7,12 @@ class Player(Turtle):
         super().__init__()
         self.shape('turtle')
         self.penup()
+        self.start_line()
         self.seth(DEFAULT_DIRECTION)
-        self.goto(START_POSITION)
+        
 
     def move(self):
         self.forward(STEP)
+
+    def start_line(self):
+        self.goto(START_POSITION)
