@@ -24,6 +24,7 @@ while game_on:
     # #Detect collision with car
     for car in cars.all_cars:
         if car.distance(new_player) < 20:
+            score.game_over()
             game_on = False
     
     if new_player.ycor() == 250:
