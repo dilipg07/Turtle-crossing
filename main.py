@@ -31,5 +31,4 @@ while game_on:
         score.increase_score()
         new_player.start_line()
         x *= 0.8
-        print(x)
 screen.exitonclick()
